@@ -1,0 +1,5 @@
+#paragraf_przed::after {
+    content: "przed paragrafem"; 
+/*    przykład pseudoelementu*/
+    color:red;
+}
