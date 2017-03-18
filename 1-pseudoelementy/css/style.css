@@ -1,5 +1,19 @@
 #paragraf_przed::after {
+    content: "za paragrafem"; 
+/*    przykład pseudoelementu*/
+    color:red;
+}
+
+#paragraf_przed::before {
     content: "przed paragrafem"; 
 /*    przykład pseudoelementu*/
     color:red;
+}
+
+#paragraf_przed::first-letter {
+    text-transform: uppercase;
+}
+
+#paragraf_przed::first-line{
+    background-color: yellow;
 }
