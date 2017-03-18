@@ -34,6 +34,22 @@ p:target{
     background-color: lightgoldenrodyellow;
 }
 
-#kontener div:only-child {
+
+#kontener p:only-child {
     background-color: lightgreen;
 } 
+
+#kontener p:empty::before {
+    content: "przed elementem";
+    color: blue;    
+}
+
+/*
+#kontener p:nth-child(even) {
+    background-color: aquamarine;
+}
+*/
+
+#kontener p:nth-child(3n+1) {
+    background-color: aquamarine;
+}
