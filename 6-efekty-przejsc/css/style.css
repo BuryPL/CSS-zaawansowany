@@ -8,20 +8,23 @@ div {
 
 #box1 {
     background-color: red;
+    transition: width 1s linear;
 }
 
 #box2 {
     background-color: blue;
+    transition: height 1s linear;
 }
 
 #box3 {
     background-color: green;
+    transition: height 1s linear, width 1s linear;
 }
 
 #box4 {
     background-color: violet;
+    transition: 1s linear;
 }
-
 
 #box1:hover {
     width: 300px;
@@ -42,4 +45,5 @@ div {
 #box4:hover {
     transform: rotate(180deg);
     transition: 2s linear;
+    background-color: aqua;
 }
