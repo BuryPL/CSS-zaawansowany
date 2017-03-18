@@ -1,23 +1,27 @@
-div[title] {
-    background-color: yellow;   
+#blokowy1 {
+    background-color: aqua;
 }
 
-div[suma="1500"] {
-    background-color: blue;
+#blokowy2 {
+    background-color: yellow;
 }
 
-div[class~="kluczowy"] {
-background-color: lime;
+p {
+    display: inline;
 }
 
-div[class*="kluczowy"] {
+#liniowo-blokowy1 {
     background-color: red;
 }
 
-div[title^="key"] {
-    background-color: pink;
+#liniowo-blokowy2 {
+    background-color: lime;
 }
 
-div[title$="1"] {
-    background-color: orange;
+p.liniowo-blokowy {
+    display: inline-block;
+}
+
+div#kontener2 {
+   text-align: center; 
 }
