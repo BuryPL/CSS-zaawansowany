@@ -21,3 +21,19 @@ a:focus{
 a:lang(pl){
     background-color: yellow;
 }
+
+p:target{
+    background-color: lime;
+}
+
+#kontener p:first-child {
+    background-color: lightcoral;
+}
+
+#kontener p:last-child {
+    background-color: lightgoldenrodyellow;
+}
+
+#kontener div:only-child {
+    background-color: lightgreen;
+} 
