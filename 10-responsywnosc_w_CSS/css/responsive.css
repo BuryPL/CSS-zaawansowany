@@ -1,1 +1,25 @@
-@media 
+@media (min-width:999px) and (max-width:1168px) {
+    div {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:769px) and (max-width:998px) {
+    div {
+        width: 45%;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    div {
+        width: 80%;
+        font-size: 25px;
+    }
+}
+
+@media (max-width:480px) {
+   div {
+        width: 80%;
+        font-size: 35px;
+    } 
+}
