@@ -1,9 +1,21 @@
-div {
-    background-color: beige;
+#dpierwszy {
+    background-color: orange;
 }
 
-@media (max-width: 768px) or (min-width: 968px) {
-    div {
-        background-color: lightgreen;
-    }
+#ddrugi {
+    background-color: skyblue;
+}
+
+#dtrzeci {
+    background-color: palevioletred;
+}
+
+#dczwarty {
+    background-color: lime;
+}
+
+div {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
 }
